@@ -41,13 +41,13 @@ export default function Home() {
                         Kontak
                       </Link>
                       <Link
-                        href="/memberships"
+                        href="/organisasi"
                         className="flex items-center text-sm font-medium text-gray-200 hover:text-yellow-500"
                       >
                         Organisasi
                       </Link>
                       <Link
-                        href="/about"
+                        href="/tentang"
                         className="flex items-center text-sm font-medium text-gray-200 hover:text-yellow-500"
                       >
                         Sejarah
