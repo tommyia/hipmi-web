@@ -5,25 +5,18 @@ export default function WisataPage() {
   return (
     <div>
       <div className="relative bg-black">
-        <div className="bg-gray-900">
-          <div className="relative isolate overflow-hidden pt-14">
-            <Image 
-              src="/assets/page-1.jpeg" 
-              alt="Background"
-              fill
-              className="absolute inset-0 -z-10 size-full object-cover"
-            />
-            <div className="bg-black opacity-[.7] absolute inset-0 -z-10 size-full"></div>
-            <div className="mx-auto max-w-7xl px-6 lg:px-8 z-20">
-              <div className="mx-auto max-w-3xl py-32 sm:py-48 lg:py-56">
-                <div className="text-center">
-                  <h1 className="text-balance text-3xl font-semibold tracking-tight text-white sm:text-5xl">Wisata Kabupaten Pemalang</h1>
-                  <p className="mt-8 text-pretty text-lg font-medium text-gray-400 sm:text-xl/8">Jelajahi keindahan alam dan budaya Kabupaten Pemalang. Temukan berbagai destinasi wisata menarik yang menawarkan pengalaman tak terlupakan bagi para pengunjung.</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+        <div className="bg-black">
+					<div className="relative isolate overflow-hidden">
+						<div className="mx-auto max-w-7xl px-6 lg:px-8 z-20">
+							<div className="mx-auto max-w-4xl py-32">
+								<div className="text-center">
+									<h1 className="text-balance text-3xl font-semibold tracking-tight text-white sm:text-5xl">Temukan Destinasi Wisata Menarik disini</h1>
+									<p className="mt-8 text-pretty text-lg font-medium text-gray-400 sm:text-xl/8">Jelajahi berbagai pilihan produk wisata yang kami tawarkan, mulai dari pantai yang menakjubkan hingga pegunungan yang menantang. Setiap pengalaman dirancang untuk memberikan kenangan tak terlupakan.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
       </div>
 
       <div className="bg-white py-24 sm:py-32">

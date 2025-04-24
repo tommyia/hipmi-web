@@ -33,6 +33,10 @@ const nextConfig = {
       {
         protocol: 'https',
         hostname: 't4.ftcdn.net',
+      },
+      {
+        protocol: 'https',
+        hostname: 'ik.imagekit.io',
       }
     ],
   },
